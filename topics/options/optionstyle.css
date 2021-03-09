@@ -1,0 +1,75 @@
+.container-fluid {
+  padding: 0px;
+}
+
+#frontend {
+  padding: 5% 15%;
+}
+
+#begin {
+  padding: 5% 15%;
+  color: white;
+  padding: 5% 15%;
+  background-image: url("assets/back0.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#language {
+  padding: 5% 15%;
+}
+
+#dsalgo {
+  color: white;
+  padding: 5% 15%;
+  background-image: url("assets/back2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cp {
+  padding: 5% 15%;
+}
+
+#sysdes {
+  padding: 5% 15%;
+}
+
+#subjective {
+  padding: 5% 15%;
+}
+
+#misc {
+  padding: 5% 15%;
+}
+
+#web {
+  padding: 5% 15%;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.my-button {
+  background-color: #fff;
+  border: none;
+  color: purple;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.my-button-color {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* .my-button:hover {
+  background-image: linear-gradient(to right, #ff00ff, #00ffff);
+} */

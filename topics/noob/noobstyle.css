@@ -1,0 +1,54 @@
+.container-fluid {
+  padding: 0%;
+}
+
+#navbar-my {
+  padding: 2% 15%;
+  padding-top: 1%;
+}
+
+.navbar {
+  padding: 0%;
+}
+
+#intro {
+  color: #fff;
+  padding: 10% 15%;
+  background-image: url("assets/firstwave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main {
+  padding: 5% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.seprate {
+  height: 100px;
+}
+
+#footer {
+  padding: 5% 5%;
+  background: #4534aa;
+}
+
+.my-list-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  color: #fff;
+}
+
+.footer-heading {
+  letter-spacing: .2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}

@@ -1,0 +1,103 @@
+.container-fluid {
+  padding: 0%;
+}
+
+#wtl {
+  padding: 10% 5%;
+  color: #fff;
+  background-image: url("assets/backwavesmall.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#frontend {
+  padding: 5%;
+}
+
+#web {
+  padding: 5% 15%;
+  background: color
+}
+
+#gitter {
+  padding: 5%;
+}
+
+#backend {
+  padding: 5%;
+}
+
+.banner {
+  height: 200px;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.my-button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.choice {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Language Card Setting */
+.l-card {
+  margin-top: 20px;
+}
+
+.l-card .btn {
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 7px 20px;
+}
+
+.l-card .card-img-block {
+  width: 91%;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.l-card .card-img-block img {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.63);
+}
+
+.l-card h5 {
+  color: #4E5E30;
+  font-weight: 600;
+}
+
+.l-card p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.l-card .btn-primary {
+  background-color: #4E5E30;
+  border-color: #4E5E30;
+}
+
+/* .l-card .time {
+  margin: 0 auto;
+  position: relative;
+  bottom: -10px;
+} */

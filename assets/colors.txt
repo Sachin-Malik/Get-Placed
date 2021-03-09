@@ -7,3 +7,6 @@ Footer "blurple" hex #4534aa
 kinda light purple #4c4981
 
 background of card  and testimonials #d6d1f5
+
+
+colors for Programming and coding

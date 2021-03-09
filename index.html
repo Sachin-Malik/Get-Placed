@@ -25,7 +25,7 @@
   <!-- My CSS Sheets -->
   <link rel="stylesheet" href="CSS/home.css">
 
-  <title>Electura</title>
+  <title>Interview Smash</title>
 </head>
 
 <body>
@@ -35,24 +35,26 @@
 
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <div class="row">
+            <a class="navbar-brand" style="color:#000;font-weight:600;" href="#">Get Placed</a>
+            <!-- <img class="navbar-brand" src="assets/banner.svg" style="width:100px;" alt=""> -->
+          </div>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" style="color:white" href="#"><button type="button" class="btn btn-outline-primary navbar-btn">Home</button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" style="color:white" href="topics/options/option.html"><button type="button" class="btn btn-outline-primary navbar-btn">Explore</button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" style="color:white" href="downloads/1.pdf" download target="_blank"><button type="button" class="btn btn-outline-primary navbar-btn">Pricing</button></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+
             </ul>
           </div>
         </div>
@@ -64,22 +66,22 @@
   <div class="container-fluid">
     <section id="main">
 
-      <div class="row justify-content-between mt-5">
+      <div class="row justify-content-between">
 
-        <div class=" col-lg-6 col-md-5 col-sm-10">
+        <div class=" col-lg-6 col-md-5 col-sm-10 mb-5">
           <div class="row pt-5 ">
             <div class="col">
               <h1>Complete and Simplified Guide for Placements</h1>
               <p>Know all the resouces and somtheing</p>
-              <button type="button" class="btn btn-lg btn-outline-primary btn-explore">Explore</button>
+              <a href="topics/options/option.html"> <button type="button" class="btn btn-lg btn-outline-primary btn-explore">Explore</button></a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-7 col-sm-10  my-auto">
           <div class="row">
-            <div class="col">
-              <img src="assets/interview.svg" alt="" style="width:100%;height:100%;">
+            <div class="col pl-5">
+              <img src="assets/job_interview.svg" alt="" style="width:100%;">
             </div>
           </div>
         </div>
@@ -104,12 +106,10 @@
 
     <section id="goal">
       <div class="row justify-content-around mt-5">
-        <div class="col-md-5 my-auto">
-          <div class="row">
-            <div class="col">
-              <img src="assets/target.svg" alt="" style="width:100%;">
-            </div>
-          </div>
+        <div class="col-md-5 my-auto float">
+
+          <img src="assets/achieve.svg" alt="" style="width:100%;">
+
         </div>
         <div class="col-md-5">
           <div class="row pt-5 ">
@@ -123,8 +123,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="temp-margin">
       </div>
     </section>
 
@@ -143,7 +141,7 @@
       <div class="row justify-content-around">
 
         <div class="col-md-3 mt-3 mr-3">
-          <div class="card">
+          <div class="card ">
             <img class="card-img-top card-img " src="assets/video2.svg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center sub-heading" style="padding:0px;"><i class="bi boot-icon bi-play-btn"></i>&nbsp Interactive Videos</h5>
@@ -153,7 +151,7 @@
         </div>
 
         <div class="col-md-3 mt-3 mr-3">
-          <div class="card">
+          <div class="card ">
             <img class="card-img-top card-img " src="assets/paid.svg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center sub-heading"><i class="bi bi-filter-square boot-icon"></i>&nbsp Practice Sets</h5>
@@ -163,7 +161,7 @@
         </div>
 
         <div class="col-md-3 mt-3 mr-3">
-          <div class="card">
+          <div class="card ">
             <img class="card-img-top card-img " src="assets/test.svg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center sub-heading "><i class="bi bi-hourglass-split boot-icon"></i> &nbspTest Your Skills</h5>
@@ -341,8 +339,8 @@
             <p>Copyright &copy 2021 . All rights reserved by Electura.Co</p>
           </div>
           <div class="col-md-2">
-            <div class="row">
-              <a href="#"> <i class="bi fa-1x bi-facebook px-2" style="color:white;"></i></a>
+            <div class="row ">
+              <a href="#"> <i class="bi fa-1x bi-facebook px-2 opacity-my" style="color:white;"></i></a>
               <a href="#"><i class="bi fa-1x bi-twitter px-2" style="color:white;"></i></i></a>
               <a href="#"> <i class="bi fa-1x bi-linkedin px-2" style="color:white;"></i></a>
               <a href="#"> </i><i class="bi px-2 bi-instagram" style="color:white;"></i></i></a>
@@ -351,7 +349,6 @@
         </div>
       </section>
     </div>
-
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
