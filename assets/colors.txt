@@ -2,11 +2,14 @@ Hex for undraw Ilustrations --> #6C63FF
 
 Body text color --> light gray #6c757d
 
+body -text #88879e
+
 Footer "blurple" hex #4534aa
 
 kinda light purple #4c4981
 
 background of card  and testimonials #d6d1f5
 
+AMBER ->#FFBF00
 
 colors for Programming and coding

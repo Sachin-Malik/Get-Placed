@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("../assets/sidewavecolor.svg");
+  background: url("../assets/sidewave.svg");
   background-size: ccover;
   background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@ h1 {
 }
 
 #navbar-my {
-  padding: 2% 15%;
+  padding: 2% 11%;
   padding-top: 1%;
 }
 
@@ -51,25 +51,25 @@ h1 {
 }
 
 .navbar-btn:hover {
-  background: #4534aa;
+  background: #FFBF00;
   color: #fff;
-  opacity: .71;
 }
 
 /* MAIN SECTION AND EVERYTHING IN MAIN */
 #main {
-  padding: 5% 15%;
-  padding-top: 3%;
+  padding: 3% 15%;
+  padding-top: 0%;
+  padding-left: 10%;
 }
 
 .btn-explore {
-  color: #6C63FF;
-  border: 1px solid #6C63FF;
+  color: #4534aa;
+  border: 1px solid #4534aa;
 }
 
 .btn-explore:hover {
   color: white;
-  background: #6C63FF;
+  background: #4534aa;
 }
 
 #goal {
@@ -110,6 +110,51 @@ mark {
   background-color: #d6d1f5;
 }
 
+#services {
+  padding: 5% 15%;
+}
+
+.service-card-img {
+  padding: 2%;
+  margin: 5%;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.service-card-btn {
+  background-color: #4534aa;
+  opacity: 1;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.service-card-btn:hover {
+  background: #fff;
+  color: #4534aa;
+  opacity: .9;
+}
+
+.service-card-heading {
+  font-weight: 500;
+  /* color: #fff; */
+}
+
+.service-card:hover {
+  background: #d6d1f5;
+  color: #fff;
+}
+
+.service-card:hover~.service-card-img {
+  background-color: white;
+}
+
 #testimonials {
   width: 100%;
   padding: 5% 5%;
@@ -143,14 +188,6 @@ footer {
   letter-spacing: .2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-}
-
-opacity-my {
-  opacity: .6;
-}
-
-opacity-my:hover {
-  opacity: 1;
 }
 
 #back {}

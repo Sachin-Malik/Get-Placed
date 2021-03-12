@@ -1,0 +1,282 @@
+.container-fluid {
+  padding: 0%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url("../assets/sidewavecolor.svg");
+  background-size: ccover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+a {
+  color: black;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.sub-heading {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.b-text {
+  color: #6c757d;
+}
+
+.temp-margin {
+  padding: 5% 15%;
+}
+
+#navbar-my {
+  padding: 2% 15%;
+  padding-top: 1%;
+}
+
+.navbar {
+  padding: 0.5rem 0rem;
+  font-weight: 300;
+}
+
+.navbar-btn {
+  background: #fff;
+  color: #4534aa;
+  border: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.navbar-btn:hover {
+  background: #4534aa;
+  color: #fff;
+  opacity: .71;
+}
+
+/* MAIN SECTION AND EVERYTHING IN MAIN */
+#overview {
+  padding: 5% 10%;
+}
+
+#cpp {
+  padding: 5% 10%;
+}
+
+#python {
+  padding: 5% 10%;
+  padding-top: 0%;
+}
+
+#java {
+  padding: 5% 10%;
+  padding-top: 0%;
+}
+
+.container-fluid {
+  padding: 0%;
+}
+
+#wtl {
+  padding: 10% 5%;
+  color: #fff;
+  background-image: url("assets/backwavesmall.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#frontend {
+  padding: 5%;
+}
+
+#web {
+  padding: 5% 15%;
+  background: color
+}
+
+#gitter {
+  padding: 5%;
+}
+
+#backend {
+  padding: 5%;
+}
+
+.banner {
+  height: 200px;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.my-button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Language Card Setting */
+.l-card {
+  margin-top: 20px;
+}
+
+.l-card .btn {
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 7px 20px;
+}
+
+.l-card .card-img-block {
+  width: 91%;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.l-card .card-img-block img {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.63);
+}
+
+.l-card h5 {
+  color: #4E5E30;
+  font-weight: 600;
+}
+
+.l-card p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.l-card .btn-primary {
+  background-color: #4E5E30;
+  border-color: #4E5E30;
+}
+
+.link-cp {
+  color: black;
+}
+
+.link-cpp:hover {
+  color: #283593;
+}
+
+.link-python {
+  color: black;
+}
+
+.link-python:hover {
+  color: #FFD43B;
+}
+
+.link-java {
+  color: black;
+}
+
+.link-java:hover {
+  color: #5382a1;
+}
+
+/* .l-card .time {
+  margin: 0 auto;
+  position: relative;
+  bottom: -10px;
+} */
+#footer {
+  padding: 5% 5%;
+  background: #4534aa;
+}
+
+.my-list-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  color: #fff;
+}
+
+.footer-heading {
+  letter-spacing: .2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+/* COMPLETE MESS OF LANGUAGE BUTTON */
+/* BUTTON OF LANGUAGES */
+.language-btn:hover {
+  background: #283593;
+  color: #fff;
+}
+
+.language-btn-python:hover {
+  background: #FFD43B;
+  color: #fff;
+}
+
+.language-btn-python {
+  background: #fff;
+  color: #FFD43B;
+  border: 1px solid #FFD43B;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+}
+
+.language-btn {
+  background: #fff;
+  color: #283593;
+  border: 1px solid #283593;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.language-btn-java:hover {
+  background: #5382a1;
+  color: #fff;
+}
+
+.language-btn-java {
+  background: #fff;
+  color: #5382a1;
+  border: 1px solid #5382a1;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
