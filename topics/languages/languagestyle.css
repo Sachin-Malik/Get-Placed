@@ -4,9 +4,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("../assets/sidewavecolor.svg");
-  background-size: ccover;
-  background-repeat: no-repeat;
 }
 
 h1 {
@@ -55,7 +52,7 @@ a {
 .navbar-btn {
   background: #fff;
   color: #4534aa;
-  border: none;
+  border: 1px solid #fff;
   padding: 5px 15px;
   text-decoration: none;
   display: inline-block;
@@ -64,14 +61,19 @@ a {
 }
 
 .navbar-btn:hover {
-  background: #4534aa;
+  border: .5px solid #FFBF00;
+  background: #FFBF00;
   color: #fff;
-  opacity: .71;
 }
 
 /* MAIN SECTION AND EVERYTHING IN MAIN */
 #overview {
+  color: #fff;
   padding: 5% 10%;
+}
+
+#nav-overview {
+  background-image: radial-gradient(circle at 70% 18%, hsla(126, 0%, 77%, 0.05) 0%, hsla(126, 0%, 77%, 0.05) 41%, transparent 41%, transparent 100%), radial-gradient(circle at 6% 94%, hsla(126, 0%, 77%, 0.05) 0%, hsla(126, 0%, 77%, 0.05) 52%, transparent 52%, transparent 100%), radial-gradient(circle at 93% 63%, hsla(126, 0%, 77%, 0.05) 0%, hsla(126, 0%, 77%, 0.05) 85%, transparent 85%, transparent 100%), radial-gradient(circle at 5% 85%, hsla(126, 0%, 77%, 0.05) 0%, hsla(126, 0%, 77%, 0.05) 8%, transparent 8%, transparent 100%), radial-gradient(circle at 49% 93%, hsla(126, 0%, 77%, 0.05) 0%, hsla(126, 0%, 77%, 0.05) 37%, transparent 37%, transparent 100%), linear-gradient(45deg, rgb(15, 5, 113), rgb(191, 90, 222));
 }
 
 #cpp {
@@ -209,7 +211,8 @@ a {
 } */
 #footer {
   padding: 5% 5%;
-  background: #4534aa;
+  /* background: #4534aa; */
+  background-image: radial-gradient(circle at 29% 55%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 4%, transparent 4%, transparent 44%, transparent 44%, transparent 100%), radial-gradient(circle at 85% 89%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 51%, transparent 51%, transparent 52%, transparent 52%, transparent 100%), radial-gradient(circle at 6% 90%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 53%, transparent 53%, transparent 64%, transparent 64%, transparent 100%), radial-gradient(circle at 35% 75%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 6%, transparent 6%, transparent 98%, transparent 98%, transparent 100%), radial-gradient(circle at 56% 75%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 16%, transparent 16%, transparent 23%, transparent 23%, transparent 100%), radial-gradient(circle at 42% 0%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 3%, transparent 3%, transparent 26%, transparent 26%, transparent 100%), radial-gradient(circle at 29% 28%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 51%, transparent 51%, transparent 75%, transparent 75%, transparent 100%), radial-gradient(circle at 77% 21%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 35%, transparent 35%, transparent 55%, transparent 55%, transparent 100%), radial-gradient(circle at 65% 91%, hsla(329, 0%, 99%, 0.05) 0%, hsla(329, 0%, 99%, 0.05) 46%, transparent 46%, transparent 76%, transparent 76%, transparent 100%), linear-gradient(45deg, rgb(15, 5, 113), rgb(191, 90, 222));
 }
 
 .my-list-style {

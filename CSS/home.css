@@ -1,18 +1,18 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  background: url("../assets/sidewave.svg");
+  font-family: "Montserrat", sans-serif;
+  background: url("../assets/s.svg");
   background-size: ccover;
   background-repeat: no-repeat;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 48px;
 }
 
 .sub-heading {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
 }
 
@@ -22,6 +22,8 @@ h1 {
 }
 
 .b-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
   color: #6c757d;
 }
 
@@ -51,15 +53,22 @@ h1 {
 }
 
 .navbar-btn:hover {
-  background: #FFBF00;
+  background: #ffbf00;
   color: #fff;
 }
 
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
 /* MAIN SECTION AND EVERYTHING IN MAIN */
 #main {
-  padding: 3% 15%;
+  padding: 10% 15%;
   padding-top: 0%;
   padding-left: 10%;
+  padding-bottom: 5%;
 }
 
 .btn-explore {
@@ -73,19 +82,21 @@ h1 {
 }
 
 #goal {
-  padding: 5% 15%;
-  /* background-image: url("../assets/middle.svg");
+  padding: 0% 15%;
+  /* background-image: url("../assets/astronaut-animate.svg");
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: 0% 0%;
+  background-size: contain;
+  backface-visibility: visible; */
+  padding-bottom: 5%;
 }
 
 .boot-icon {
-  color: #6C63FF;
+  color: #6c63ff;
 }
 
 #wwp {
-  padding: 5% 15%;
-  padding-bottom: 15%;
+  padding: 3% 12%;
 }
 
 .card {
@@ -99,19 +110,24 @@ h1 {
   height: 180px;
   background-color: #d6d1f5;
 }
-
+.card-body {
+  padding: 0%;
+}
 mark {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
 }
 
 #banner {
-  padding: 5% 15%;
+  padding: 2% 15%;
   background-color: #d6d1f5;
 }
 
 #services {
   padding: 5% 15%;
+  background: url("../assets/resources-back.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .service-card-img {
@@ -138,7 +154,7 @@ mark {
 .service-card-btn:hover {
   background: #fff;
   color: #4534aa;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .service-card-heading {
@@ -151,8 +167,12 @@ mark {
   color: #fff;
 }
 
-.service-card:hover~.service-card-img {
+.service-card:hover ~ .service-card-img {
   background-color: white;
+}
+
+.mycard {
+  border-radius: 50px;
 }
 
 #testimonials {
@@ -167,7 +187,6 @@ mark {
 .person-pin {
   border-radius: 50%;
   height: 75px;
-  weight: 75px;
 }
 
 #footer {
@@ -185,9 +204,39 @@ footer {
 }
 
 .footer-heading {
-  letter-spacing: .2rem;
-  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2rem;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
-#back {}
+.custom-bg {
+  background-image: radial-gradient(
+      circle at 52% 94%,
+      rgba(169, 169, 169, 0.04) 0%,
+      rgba(169, 169, 169, 0.04) 50%,
+      rgba(199, 199, 199, 0.04) 50%,
+      rgba(199, 199, 199, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 96% 98%,
+      rgba(61, 61, 61, 0.04) 0%,
+      rgba(61, 61, 61, 0.04) 50%,
+      rgba(201, 201, 201, 0.04) 50%,
+      rgba(201, 201, 201, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 93% 97%,
+      rgba(227, 227, 227, 0.04) 0%,
+      rgba(227, 227, 227, 0.04) 50%,
+      rgba(145, 145, 145, 0.04) 50%,
+      rgba(145, 145, 145, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 79% 52%,
+      rgba(245, 245, 245, 0.04) 0%,
+      rgba(245, 245, 245, 0.04) 50%,
+      rgba(86, 86, 86, 0.04) 50%,
+      rgba(86, 86, 86, 0.04) 100%
+    ),
+    linear-gradient(330deg, rgb(255, 191, 0), rgb(230, 233, 65));
+}

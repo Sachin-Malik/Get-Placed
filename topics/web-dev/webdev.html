@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,51 +29,81 @@
 </head>
 
 <body>
-  <header>
-    <section id="navbar-my">
 
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <div class="row">
-            <a class="navbar-brand" style="font-weight:500;letter-spacing:.2rem;" href="#">Get Placed</a>
-            <!-- <img class="navbar-brand" src="assets/banner.svg" style="width:100px;" alt=""> -->
-          </div>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-    </section>
-  </header>
 
   <div class="container-fluid">
+    <div id="nav-overview">
+      <section id="navbar-my">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <div class="row">
+              <a class="navbar-brand" style="color:#fff;font-weight:600;" href="#">Get Placed</a>
+              <!-- <img class="navbar-brand" src="assets/banner.svg" style="width:100px;" alt=""> -->
+            </div>
 
-    <section id="wtl">
-      <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-8 col-lg-6 text-center">
-          <h1 class="heading">What to Learn</h1>
-          <p>Lorem ipsum dolor sit amet, aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure . Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" style="color:white" href="#"><button type="button" class="btn btn-outline-primary navbar-btn">HOME</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color:white" href="#services"><button type="button" class="btn btn-outline-primary navbar-btn">EXPLORE</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color:white" href="downloads/1.pdf" download target="_blank"><button type="button" class="btn btn-outline-primary navbar-btn">PRICING</button></a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section id="overview">
+
+        <div class="row justify-content-around">
+          <div class="col-sm-10 col-md-5 text-left my-auto">
+
+            <h1 class="heading pb-3">Web Development</h1>
+            <p class="text-justify ">Choosing a Language can be a little overwhelming if you are new to this. Although You will be learning many different languages for diffrent developments.But for Learning Data Structure and Algorithm
+              and Competitive Coding you should pick one language and try to master it. Few of the most famous languages for this purpose are listed below. </p>
+            <h3 class="heading pt-3">Estimated Time To Master</h3>
+            <div class="row time justify-content-start">
+              <div class="col-sm-12 col-md-8">
+
+                <div class="row">
+                  <div class="col  text-center">
+                    <p>Days</p>
+                    <p>2</p>
+                  </div>
+                  <div class="col text-center ">
+                    <p>Hours</p>
+                    <p class="border-left">2</p>
+                  </div>
+                  <div class="col  text-center">
+                    <p>Projects</p>
+                    <p class="border-left">16</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-5 shadow  my-auto">
+            <div class="row" style="background:#fff">
+              <img class="rounded" src="assets/webdeveloper-animate.svg" alt="" style="width:100%;height:350px">
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+  </div>
+  <div class="container-fluid">
+
 
     <section id="frontend">
 

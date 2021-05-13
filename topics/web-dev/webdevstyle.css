@@ -2,12 +2,70 @@
   padding: 0%;
 }
 
-#wtl {
-  padding: 10% 5%;
+#navbar-my {
+  padding: 2% 15%;
+  padding-top: 1%;
+}
+
+.navbar-btn {
+  background: #fff;
+  color: #4534aa;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.navbar-btn:hover {
+  border: 0.5px solid #ffbf00;
+  background: #ffbf00;
   color: #fff;
-  background-image: url("assets/backwavesmall.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+#overview {
+  color: #fff;
+  padding: 5% 10%;
+}
+
+#nav-overview {
+  background-image: radial-gradient(
+      circle at 70% 18%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 41%,
+      transparent 41%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 6% 94%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 52%,
+      transparent 52%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 93% 63%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 85%,
+      transparent 85%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 5% 85%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 49% 93%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    linear-gradient(45deg, rgb(15, 5, 113), rgb(191, 90, 222));
 }
 
 #frontend {
@@ -16,7 +74,7 @@
 
 #web {
   padding: 5% 15%;
-  background: color
+  background: color;
 }
 
 #gitter {
@@ -82,7 +140,7 @@
 }
 
 .l-card h5 {
-  color: #4E5E30;
+  color: #4e5e30;
   font-weight: 600;
 }
 
@@ -92,8 +150,8 @@
 }
 
 .l-card .btn-primary {
-  background-color: #4E5E30;
-  border-color: #4E5E30;
+  background-color: #4e5e30;
+  border-color: #4e5e30;
 }
 
 /* .l-card .time {

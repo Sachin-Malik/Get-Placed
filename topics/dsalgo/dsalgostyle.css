@@ -1,9 +1,72 @@
+.container-fluid {
+  padding: 0%;
+}
+.container {
+  padding: 0%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
 #main {
   padding: 5% 15%;
+  background-image: url("assets/lightgreywave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #content {
-  padding: 5% 10%;
+  padding: 0% 10%;
+  padding-top: 5%;
+}
+
+#op {
+  padding: 5% 15%;
+}
+#overview {
+  color: #fff;
+  padding: 5% 0%;
+}
+#nav-overview {
+  background-image: radial-gradient(
+      circle at 70% 18%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 41%,
+      transparent 41%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 6% 94%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 52%,
+      transparent 52%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 93% 63%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 85%,
+      transparent 85%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 5% 85%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 49% 93%,
+      hsla(126, 0%, 77%, 0.05) 0%,
+      hsla(126, 0%, 77%, 0.05) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    linear-gradient(45deg, rgb(15, 5, 113), rgb(191, 90, 222));
 }
 
 .heading {
@@ -12,14 +75,39 @@
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
 
-.b-text {
-  font-family: 'Noto Sans JP', sans-serif;
+#navbar-my {
+  padding: 2% 0%;
+  padding-top: 1%;
+}
+
+.navbar {
+  padding: 0.5rem 0rem;
   font-weight: 300;
-  color: #6c757d;
+}
+.navbar-btn {
+  background: #fff;
+  color: #4534aa;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.navbar-btn:hover {
+  border: 1px solid #ffbf00;
+  background: #ffbf00;
+  color: #fff;
+}
+
+.b-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
 }
 
 .l-card {
@@ -46,7 +134,7 @@ h1 {
 }
 
 .l-card h5 {
-  color: #4E5E30;
+  color: #4e5e30;
   font-weight: 600;
 }
 
@@ -56,8 +144,18 @@ h1 {
 }
 
 .l-card .btn-primary {
-  background-color: #4E5E30;
-  border-color: #4E5E30;
+  background-color: #4e5e30;
+  border-color: #4e5e30;
+}
+
+.border-my {
+  border: none;
+}
+
+.nato {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  color: inherit;
 }
 
 .btn:hover {
